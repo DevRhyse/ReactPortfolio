@@ -1,9 +1,9 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import mock1 from "../img/mock1.jpg"
+import mock2 from "../img/mock2.jpg"
+import mock3 from "../img/mock3.jpg"
+import mock4 from "../img/mock4.jpg"
+import mock5 from "../img/mock5.jpg"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -23,8 +23,8 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "Joseph",
-    lastName: "Sangine",
+    firstName: "Rhyse",
+    lastName: "Young",
     initials: "🖥️", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
@@ -45,28 +45,22 @@ export const info = {
         },
         {
             emoji: "📧",
-            text: "joesanginejr@gmail.com"
+            text: "dev.rhyse@gmail.com"
         }
     ],
     socials: [
         {
-            link: "https://www.facebook.com/joe.sangine",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-       
-        {
-            link: "https://github.com/JoeSangine",
+            link: "https://github.com/DevRhyse",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://www.linkedin.com/in/joe-sangine-67ab37240/",
+            link: "https://www.linkedin.com/in/devrhyse/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
         {
-            link: "https://twitter.com/SangineJoe",
+            link: "https://twitter.com/Rhyse192371",
             icon: "fa fa-twitter",
             label: 'twitter'
         }
@@ -74,10 +68,10 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello, I'm Joseph, Your next Software Engineer. I am a Full-Stack Engineer with a passion for growth, development, and innovation. I am currently accepting project opportunities, clients, or employment.",
+    bio: "loremsaldkijaskdjalskdjalsjd lasjdlkjalsdjl ajsljalsj ajsljdajsdlajs asj dj alsjdlajsldjlasjlajlj",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap','tailwind','nodejs','expressjs','mongodb', 'html', 'css', 'figma','OOP','restapi','scrum','agile','linux'],
+            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap','tailwind','nodejs','expressjs','mongodb', 'html', 'css', 'restapi'],
             exposedTo: ['typescript', 'python', 'Nextjs','AWS','PostgresSql']
         }
     ,
@@ -103,8 +97,8 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Image Generalization Finder",
-            live: "https://github.com/JoeSangine/image-generalization-finder", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            title: "ToDo",
+            live: "#", 
             image: mock1
         },
         {
@@ -116,18 +110,18 @@ export const info = {
             }
         },
         {
-            title: "Oasis Marketing Inc.",
-            live: "https://theoasismarketinginc.com/",
+            title: "ToDo",
+            live: "#",
             image: mock3
         },
         {
-            title: "Movement Culture Dance",
-            live: "http://www.movementculturedance.com/",
+            title: "HP Sprayfoam",
+            live: "#",
             image: mock4
         },
         {
-            title: "Digital Buisness Card Generator",
-            live: "https://github.com/TheWoodenMan/digital-business-card-app",
+            title: "NASA Picture of the Day",
+            live: "https://github.com/DevRhyse/NASApicOfTheDay",
             image: mock5
         }
     ]
