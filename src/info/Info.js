@@ -49,6 +49,11 @@ export const info = {
         }
     ],
     socials: [
+        // {
+        //     link: "https://youtube.com",
+        //     icon: "fa-brands fa-youtube",
+        //     label: 'youtube'
+        // },
         {
             link: "https://github.com/DevRhyse",
             icon: "fa fa-github",
@@ -68,11 +73,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "loremsaldkijaskdjalskdjalsjd lasjdlkjalsdjl ajsljalsj ajsljdajsdlajs asj dj alsjdlajsldjlasjlajlj",
+    bio: "I am a highly motivated individual with strong communication skills, I am passionate about learning and problem-solving.  With my curiosity and self-learning skills, I am able to quickly find answers to complex problems with speed and accuracy.  I am also an avid reader and a creator of video aids for learning software languages.  I am confident that I can make a positive contribution to any organization. I also enjoy being a part of a high energy team and working together to solve a difficult problems.",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap','tailwind','nodejs','expressjs','mongodb', 'html', 'css', 'restapi'],
-            exposedTo: ['typescript', 'python', 'Nextjs','AWS','PostgresSql']
+            exposedTo: ['typescript', 'python', 'Nextjs','AWS','PostgresSql', 'c++']
         }
     ,
     hobbies: [
@@ -81,8 +86,8 @@ export const info = {
             emoji: '🐺'
         },
         {
-            label: 'gaming',
-            emoji: '🎮'
+            label: 'Electrical Engineering',
+            emoji: '🗲'
         },
         {
             label: 'anime',
