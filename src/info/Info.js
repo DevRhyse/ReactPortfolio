@@ -73,11 +73,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "I am a highly motivated individual with strong communication skills, I am passionate about learning and problem-solving.  With my curiosity and self-learning skills, I am able to quickly find answers to complex problems with speed and accuracy.  I am also an avid reader and a creator of video aids for learning software languages.  I am confident that I can make a positive contribution to any organization. I also enjoy being a part of a high energy team and working together to solve a difficult problems.",
+    bio: "I am a highly motivated individual with strong communication skills, I am passionate about learning and problem-solving.  With my curiosity and self-learning skills, I am able to quickly find answers to complex problems with speed and accuracy.  I am also an avid reader and a creator of video aids for learning software languages.  I am confident that I can make a positive contribution to any organization. I also enjoy being a part of a high energy team and working together to solve difficult problems.",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap','tailwind','nodejs','expressjs','mongodb', 'html', 'css', 'restapi'],
-            exposedTo: ['typescript', 'python', 'Nextjs','AWS','PostgresSql', 'c++']
+            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap','tailwind','nodejs','mongodb', 'html', 'css'],
+            exposedTo: ['typescript', 'python', 'Nextjs','AWS','PostgresSql', 'c++', 'expressjs', 'restapi']
         }
     ,
     hobbies: [
@@ -102,32 +102,44 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "ToDo",
-            live: "#", 
-            image: mock1
+            title: "Together",
+            live: "https://together.cyclic.app/", 
+            image: mock1,
+            imgStyle: {
+                maxHeight: '40vh'
+            }
         },
         {
-            title: "Together",
-            live: "https://github.com/Caleb-Cohen/Together",
+            title: "HP Sprayfoam",
+            live: "https://hpfoam.netlify.app/",
             image: mock2,
             imgStyle: {
-                maxHeight: '63vh'
+                maxHeight: '40vh'
+            }
+        },
+        {
+            title: "NASA Picture of the Day",
+            live: "https://github.com/DevRhyse/NASApicOfTheDay",
+            image: mock3,
+            imgStyle: {
+                maxHeight: '40vh'
             }
         },
         {
             title: "ToDo",
             live: "#",
-            image: mock3
+            image: mock4,
+            imgStyle: {
+                maxHeight: '40vh'
+            }
         },
         {
-            title: "HP Sprayfoam",
+            title: "ToDo",
             live: "#",
-            image: mock4
-        },
-        {
-            title: "NASA Picture of the Day",
-            live: "https://github.com/DevRhyse/NASApicOfTheDay",
-            image: mock5
+            image: mock5,
+            imgStyle: {
+                maxHeight: '40vh'
+            }
         }
     ]
 }
