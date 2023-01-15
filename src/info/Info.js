@@ -119,7 +119,7 @@ export const info = {
         },
         {
             title: "NASA Picture of the Day",
-            live: "https://github.com/DevRhyse/NASApicOfTheDay",
+            live: "https://devrhyse.github.io/NASApicOfTheDay/",
             image: mock3,
             imgStyle: {
                 maxHeight: '40vh'
