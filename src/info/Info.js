@@ -92,7 +92,7 @@ export const info = {
         },
         {
             title: "Other Worldly Weather",
-            live: "https://devrhyse.github.io/otherWorldly/",
+            live: "https://otherworldyweather.netlify.app",
             image: mock4,
             imgStyle: {
                 maxHeight: '40vh'
