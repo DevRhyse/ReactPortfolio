@@ -2,8 +2,8 @@ import self from "../img/self.png"
 import mock1 from "../img/mock1.jpg"
 import mock2 from "../img/mock2.jpg"
 import mock3 from "../img/mock3.jpg"
-import mock4 from "../img/mock4.jpg"
-import mock5 from "../img/mock5.jpg"
+import mock4 from "../img/mock4.png"
+import mock5 from "../img/mock5.png"
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
@@ -34,11 +34,6 @@ export const info = {
         }
     ],
     socials: [
-        // {
-        //     link: "https://youtube.com",
-        //     icon: "fa-brands fa-youtube",
-        //     label: 'youtube'
-        // },
         {
             link: "https://github.com/DevRhyse",
             icon: "fa fa-github",
@@ -56,11 +51,11 @@ export const info = {
         }
 
     ],
-    bio: "I am a highly motivated individual with strong communication skills, I am passionate about learning and problem-solving.  With my curiosity and self-learning skills, I am able to quickly find answers to complex problems with speed and accuracy.  I am also an avid reader and a creator of video aids for learning software languages.  I am confident that I can make a positive contribution to any organization. I also enjoy being a part of a high energy team and working together to solve difficult problems.",
+    bio: "Hey there, I'm Rhyse - a Full-Stack Software Engineer who's all about growth, innovation, and having fun along the way! I'm passionate about using my problem-solving skills to deliver top-notch projects that make a real difference. As an avid learner, I'm always on the lookout for new challenges and opportunities to expand my skills. I thrive on finding creative solutions to complex problems and working in a collaborative team environment. I'm confident that I can bring a positive energy to any organization I work with, and I'm currently on the lookout for exciting new projects, clients, or employment opportunities",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap','tailwind','nodejs', 'express.js', 'mongodb', 'html', 'css'],
-            exposedTo: ['typescript', 'python', 'Nextjs','AWS','PostgresSql', 'c++', 'expressjs', 'restapi']
+            proficientWith: ['javascript', 'react', 'git', 'github', 'restapi', 'OOP', 'scrum', 'Agile', 'vite', 'bootstrap','tailwind','nodejs', 'express.js', 'mongodb', 'html', 'css'],
+            exposedTo: ['typescript', 'python', 'Nextjs','AWS','PostgresSql', 'c++', 'sass', 'linux', 'figma']
         }
     ,
     hobbies: [
@@ -87,7 +82,15 @@ export const info = {
             live: "https://together.cyclic.app/", 
             image: mock1,
             imgStyle: {
-                maxHeight: '40vh'
+                maxHeight: '63vh'
+            }
+        },
+        {
+            title: "Image Generalization Finder",
+            live: "https://imagegeneralizationfinder.cyclic.app/",
+            image: mock5,
+            imgStyle: {
+                maxHeight: '63vh'
             }
         },
         {
@@ -95,7 +98,7 @@ export const info = {
             live: "https://otherworldyweather.netlify.app",
             image: mock4,
             imgStyle: {
-                maxHeight: '40vh'
+                maxHeight: '63vh'
             }
         },
         {
@@ -114,13 +117,5 @@ export const info = {
                 maxHeight: '40vh'
             }
         },
-        {
-            title: "ToDo",
-            live: "#",
-            image: mock5,
-            imgStyle: {
-                maxHeight: '40vh'
-            }
-        }
     ]
 }
