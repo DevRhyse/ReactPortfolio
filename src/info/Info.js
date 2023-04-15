@@ -1,6 +1,6 @@
 import self from "../img/self.png"
 import mock1 from "../img/mock1.jpg"
-import mock2 from "../img/mock2.jpg"
+import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.jpg"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
