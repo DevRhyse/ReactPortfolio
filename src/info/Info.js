@@ -106,7 +106,7 @@ export const info = {
             live: "https://hpfoam.netlify.app/",
             image: mock2,
             imgStyle: {
-                maxHeight: '40vh'
+                maxHeight: '63vh'
             }
         },
         {
