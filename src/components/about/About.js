@@ -31,7 +31,7 @@ export default function About() {
             </ul>
             <p style={{color: info.baseColor}}> Exposed To</p>
             <ul className={Style.skills}>
-                {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
+                {info.skills.experiencedWith.map((skill, index) => <li key={index}>{skill}</li>)}
             </ul>
         </>;
     }
