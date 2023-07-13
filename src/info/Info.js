@@ -54,8 +54,8 @@ export const info = {
     bio: "Hey there, I'm Rhyse - a Full-Stack Software Engineer who's all about growth, innovation, and having fun along the way! I'm passionate about using my problem-solving skills to deliver top-notch projects that make a real difference. As an avid learner, I'm always on the lookout for new challenges and opportunities to expand my skills. I thrive on finding creative solutions to complex problems and working in a collaborative team environment. I'm confident that I can bring a positive energy to any organization I work with, and I'm currently on the lookout for exciting new projects, clients, or employment opportunities",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'node', 'git', 'github', 'SQL', 'restapi', 'OOP', 'scrum', 'Agile', 'vite', 'bootstrap','tailwind','nodejs', 'express.js', 'mongodb', 'html', 'css', 'C#', '.net'],
-            exposedTo: ['typescript', 'docker', 'vue', 'python', 'nextjs','AWS','postgresSql', 'c++', 'sass', 'linux', 'figma']
+            proficientWith: ['javascript', 'react', 'AWS', 'node', 'git', 'github', 'SQL', 'restapi', 'OOP', 'scrum', 'Agile', 'vite', 'bootstrap','tailwind', 'typescript', 'nodejs', 'express.js', 'mongodb', 'html', 'css', 'C#', '.net'],
+            experiencedWith: [ 'docker', 'vue', 'python', 'nextjs','postgresSql', 'c++', 'sass', 'linux', 'figma']
         }
     ,
     hobbies: [
